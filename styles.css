@@ -1,0 +1,65 @@
+body {background-color: white;}
+
+.circular--square {border-radius: 50%;}
+
+h1 {font-family: verdana;
+    font-size: 200%;}
+ 
+
+h2 {border-bottom: 3px solid rgb(68, 68, 68);}
+
+p {font-size: 120%;}
+
+li{font-size: 150%;}
+
+a.one:link {color: rgb(68, 68, 68);
+  text-decoration: none;}
+a.one:visited {color: purple;
+  text-decoration: none;}
+a.one:hover {color: blue;
+  text-decoration: none;}
+a.one:active {color: red;
+  text-decoration: none;}
+
+a.two:link {color: rgb(68, 68, 68);
+  text-decoration: none;}
+a.two:visited {color: purple;
+  text-decoration: none;}
+a.two:hover {color: blue;
+  text-decoration: none;}
+a.two:active {color: red;
+  text-decoration: none;}
+
+* {box-sizing: border-box;}
+
+
+.left {
+    background-color: white;
+    float: left;
+    width: 30%;
+    padding: 25px;
+    ;
+  }
+  
+.right {
+    background-color: lightgray;
+    float: right;
+    width: 70%;
+    padding: 25px;
+    }
+
+.contacto {font-size: 80%;
+  text-align: center;}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+  
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .left, .right {
+      width: 100%;}}
